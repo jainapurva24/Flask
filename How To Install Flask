@@ -1,0 +1,15 @@
+Run Flask App In CMD
+1. Create a folder on desktop named as “flask”.
+2. Open the folder.
+3. Type “cmd” on the addressbar of Flask folder.
+4. pip install virtualenv
+ Note: If any error comes while installing virtualenv than go to 
+cmd and type the below code: “ Set-ExecutionPolicy 
+unrestricted “
+5. virualenv env
+ // env is a file name it. It can be changed.
+6. env\Scripts\activate
+7. pip install flask
+ // To Run Flask App
+8. python .\app.py
+ //app.py is your filename
